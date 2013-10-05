@@ -2,7 +2,6 @@
 
 var leapjs      = require('leapjs');
 var controller  = new leapjs.Controller({enableGestures: true, frameEventName: 'deviceFrame'});
-var sendgrid    = require('sendgrid')('hackmit', 'hackmit');
 
 controller.on('ready', function() {
   console.log("Leap Device is ready.");
